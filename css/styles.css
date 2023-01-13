@@ -138,6 +138,7 @@ body {
 /* MAIN */
 /* HERO */
 .hero {
+    padding: 188px 0px;
     background-color: var(--color-secondary--);
 }
 .hero-container {
@@ -257,15 +258,13 @@ body {
 }
 /* PORTFOLIO */
 .portfolio-section {
-    padding-top: 0;
-}
-.portfolio-container {
     padding-top: 96px;
-    padding-bottom: 72px;
 }
 .portfolio-filter {
     display: flex;
     justify-content: center;
+
+    margin-bottom: 72px;
 }
 .portfolio-filter .item:not(:last-child) {
     margin-right: 24px;
@@ -288,6 +287,7 @@ body {
     color: var(--color-background--);
 
     background: var(--color-button-active--);
+    border-color: transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list {
